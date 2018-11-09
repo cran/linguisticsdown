@@ -1,6 +1,3 @@
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Build Status](https://travis-ci.org/liao961120/linguisticsdown.svg?branch=master)](https://travis-ci.org/liao961120/linguisticsdown) [![Support R Version](https://img.shields.io/badge/R-≥%203.4.0-blue.svg)](https://cran.r-project.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 linguisticsdown
 ===============
 
@@ -10,18 +7,26 @@ Installation
 ------------
 
 ``` r
+# CRAN
+install.packages("linguisticsdown")
+
+# Latest Version
 devtools::install_github("liao961120/linguisticsdown")
 ```
 
 Usage
 -----
 
-See **linguisticsdown** [web site](https://liao961120.github.io/linguisticsdown). Visit [this site](https://liao961120.shinyapps.io/IPA-Easily-Written/) to use Shiny live demo
+See **linguisticsdown** [web site](https://liao961120.github.io/linguisticsdown). Visit [this site](https://liao961120.shinyapps.io/IPA-Easily-Written/) to use Shiny live demo.
 
 To Do
 -----
 
-1.  Draw Syntax Tree
+1.  Correct IPA segments naming errors ([\#3](/../../issues/3))
+2.  More Shiny gadget options
+    -   Wrap in `/ /`, `[ ]`, or `don't wrap`
+    -   Insert as decoded unicode
+3.  Draw Syntax Tree
 
 Data Source
 -----------
