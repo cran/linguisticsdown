@@ -1,6 +1,6 @@
 Package: linguisticsdown
 Title: Easy Linguistics Document Writing with R Markdown
-Version: 1.1.0
+Version: 1.2.0
 Authors@R: 
     person(given = "Yongfu", 
            family = "Liao",
@@ -12,7 +12,8 @@ Description: Provides 'Shiny gadgets' to search, type, and insert IPA symbols
     'X-SAMPA'. Also provides functions to facilitate the rendering of IPA
     symbols in 'LaTeX' and PDF format, making IPA symbols properly rendered
     in all output formats. A minimal R Markdown template for authoring 
-    Linguistics related documents is also bundled with the package.
+    Linguistics related documents is also bundled with the package. Some
+    helper functions to facilitate authoring with R Markdown is also provided.
 URL: https://liao961120.github.io/linguisticsdown/,
         https://github.com/liao961120/linguisticsdown
 BugReports: https://github.com/liao961120/linguisticsdown/issues
@@ -20,12 +21,12 @@ Depends: R (>= 3.4.0)
 License: MIT + file LICENCE
 Encoding: UTF-8
 LazyData: true
-Imports: stringr, tidyr, shiny, magrittr, miniUI, knitr, rstudioapi, DT
-RoxygenNote: 6.1.0
-Suggests: pkgdown, rmarkdown, testthat
+Imports: stringr, shiny, magrittr, miniUI, knitr, rstudioapi, DT
+RoxygenNote: 6.1.1
+Suggests: pkgdown, rmarkdown, testthat, tidyr
 NeedsCompilation: no
-Packaged: 2018-11-09 13:16:46 UTC; liao
+Packaged: 2019-03-01 03:01:07 UTC; liao
 Author: Yongfu Liao [aut, cre, cph] (<https://orcid.org/0000-0002-1814-2993>)
 Maintainer: Yongfu Liao <liao961120@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-11-09 13:30:02 UTC
+Date/Publication: 2019-03-01 05:30:04 UTC
